@@ -1,0 +1,215 @@
+#pemprograman-web2
+Nurul Aulia 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Compeny Profile</title>
+     <link 
+       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+       rel="stylesheet" 
+       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+       crossorigin="anonymous"
+     />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" 
+        data-bs-toggle="collapse" 
+        data-bs-target="#navbarNav" 
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Periksa">Periksa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#hubungi">hubungi</a>
+              
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav> 
+<!-- carousel -->
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interva="1200">
+      <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?
+      ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
+      class="d-block w-100" alt="Image-1">
+    </div>
+    <div class="carousel-item" data-bs-interva="1200">
+      <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?
+      ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1420&q=80"
+       class="d-block w-100" alt="Image-2">
+    </div>
+    <div class="carousel-item" data-bs-interva="1200">
+      <img src="https://images.unsplash.com/photo-1480506132288-68f7705954bd?
+      ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=920&q=80" 
+      class="d-block w-100" alt="Image-3">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>  
+<!--section statistic -->
+<section id="Periksa" class="section-statistic my-5">
+  <div class="container">
+  <div class="row justify-content-center">
+    <div class="col-3 text-center rounded shadow mx-2 statistic-item">
+      <h3>product</h3>
+      <h4 class="fw-light">20</h4>
+    </div>
+    <div class="col-3 text-center rounded shadow mx-2 statistic-item">
+      <h3>partner</h3>
+      <h4 class="fw-light">20</h4>
+  </div>
+  <div class="col-3 text-center rounded shadow mx-2 statistic-item">
+    <h3>teamt</h3>
+    <h4 class="fw-light">20</h4>
+  </div>
+</section>
+<!-- section servicer -->
+<section  class="section-servicer">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-6">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1537498425277-c283d32ef9db?
+          ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1478&q=80" 
+          alt="image" class="card-img-top">
+        </div>
+        <div class="col-12 col-md-6 aligh-self-center">
+          <h1>Fancy Services</h1>
+          <p>Lorem ipsum, dolor sit amet consecteture adipisicing elit. eligendi quo laboratoroium tempora 
+            a adipisci quas ab aliaqum non dolor, quibusdam aperiam, laudatium earum vitae  placeat vitae placeat
+            provident labore molestias, porro eaque!</p>
+            <a href="#" class="btn btn--primary">see more</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- section quality -->
+<section class="section-quality my -5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-6 aligh-self-center text-end">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?
+          ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
+          alt="image" class="card-img-top">
+        </div>
+      </div>
+        <div class="col-12 col-md-6 aligh-self-center">
+          <h1>Quality is our priority</h1>
+          <p>Lorem ipsum, dolor sit amet consecteture adipisicing elit. eligendi quo laboratoroium tempora 
+            a adipisci quas ab aliaqum non dolor, quibusdam aperiam, laudatium earum vitae  placeat vitae placeat
+            provident labore molestias, porro eaque!</p>
+            <a href="#" class="btn btn--primary">see more</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- section testimoni -->
+<section  class="section-testimoni -my5">
+  <div class="section-head text-center">
+    <div class="container">
+     <h1>What they are said</h1>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.sapiente,
+     <br> ducimus est! molestiae  quo ex itaque.</p>
+    </div>
+  </div>
+  <div class="secttion-content">
+    <div class="row-justify-conten-center">
+      <div class="col-12 col-md-6 col-lg-4 mt-3">
+         <div class="card">
+          <img src="https://images.unsplash.com/photo-1539406176308-c5bbad125d10?
+          ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" 
+          class="d-block w-100" alt="" class="card-imd-top">
+          <div class="card-body">
+            <h3 id="hubungi"> Sarah </h3>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">First</th>
+                  <th scope="col">Last</th>
+                  <th scope="col">Handle</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td colspan="2">Larry the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table>
+            <p>Lorent ipsum dolor sit amet consectetur adipisicing elit.Doloribus voluptates necessitatibus soluto
+              queatar odit ab ipsum dolores sint quot labore! rem enim voluptates nesciunt facilis pariatur reiciendis
+              totam accusamus sequi</p>
+            </p>
+          </div>
+         </div>
+      </div>
+    </div>
+    <div class="row-justify-conten-center">
+      div class="col-12 col-md-6 col-lg-4 mt-3">
+         <div class="card">
+          <img src="https://tse2.mm.bing.net/th?id=OIP.z1gmV--v-2VrI3mKlK5vGwHaEo&pid=Api&P=0&h=180" 
+          class="d-block w-50" alt="" class="card-imd-top">
+          <div class="card-body">
+            <h3> mhike </h3>
+            <p>Lorent ipsum dolor sit amet consectetur adipisicing elit.Doloribus voluptates necessitatibus soluto
+              queatar odit ab ipsum dolores sint quot labore! rem enim voluptates nesciunt facilis pariatur reiciendis
+              totam accusamus sequi</p>
+      <div class="row-justify-conten-center">
+        div class="col-12 col-md-6 col-lg-4 mt-3">
+         <div class="card">
+          <img src="https://tse1.mm.bing.net/th?id=OIP.2aVusJiSy_bsmLbxtNlN1gHaE5&pid=Api&P=0&h=180" 
+          class="d-block w-50" alt="" class="card-imd-top">
+          <div class="card-body">
+            <h3> lina </h3>
+            <p>Lorent ipsum dolor sit amet consectetur adipisicing elit.Doloribus voluptates necessitatibus soluto
+              queatar odit ab ipsum dolores sint quot labore! rem enim voluptates nesciunt facilis pariatur reiciendis
+              totam accusamus sequi</p>
+      </div>
+    </div>
+  </div>
+</section>
+     <script 
+       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+       crossorigin="anonymous"
+     ></script>
+  </body>
+</html>
